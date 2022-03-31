@@ -74,32 +74,30 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <None Include="App.Config" />
+    <None Include="packages.config" />
     <EntityDeploy Include="ToDoModel.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>ToDoModel.Designer.cs</LastGenOutput>
     </EntityDeploy>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.Config" />
-    <None Include="packages.config" />
     <None Include="ToDoModel.edmx.diagram">
       <DependentUpon>ToDoModel.edmx</DependentUpon>
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
     <Content Include="ToDoModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>ToDoModel.Context.cs</LastGenOutput>
       <DependentUpon>ToDoModel.edmx</DependentUpon>
+      <LastGenOutput>ToDoModel.Context.cs</LastGenOutput>
     </Content>
     <Content Include="ToDoModel.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>ToDoModel.edmx</DependentUpon>
       <LastGenOutput>ToDoModel.cs</LastGenOutput>
     </Content>
-  </ItemGroup>
-  <ItemGroup>
-    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

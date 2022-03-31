@@ -4,7 +4,7 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="320d20a76dce4c3aa9db83fa616ffbf1" Name="Diagram1">
+      <Diagram DiagramId="1afe806ebecb486ba6757fa7ae630f9f" Name="Diagram1">
         <EntityTypeShape EntityType="ToDoModel.Category" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
         <EntityTypeShape EntityType="ToDoModel.ToDoItem" Width="1.5" PointX="3" PointY="0.875" IsExpanded="true" />
         <AssociationConnector Association="ToDoModel.FK_ToDoItems_Categories" ManuallyRouted="false" />
